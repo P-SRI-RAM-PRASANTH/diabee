@@ -13,9 +13,8 @@ page_bg_image="""
 <style>
   background-image:url("OIP.jpeg")
 </style>
-st.markdown(page_bg_image,unsafe_allow_html=True)
 """
-
+st.markdown(page_bg_image,unsafe_allow_html=True)
 #loading the saved model
 loaded_model=pickle.load(open("data1.sav",'rb'))
 def breast_cancer_prediction(input_data):
