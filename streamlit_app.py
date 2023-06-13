@@ -9,6 +9,7 @@ import numpy as np
 import pandas as pd
 import pickle
 import streamlit as st
+st.markdown(page_bg_image,unsafe_allow_html=True)
 <style>
   background-image:url("OIP.jpeg")
 </style>
