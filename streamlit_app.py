@@ -10,7 +10,7 @@ import pandas as pd
 import pickle
 import streamlit as st
 <style>
-  background-image:url("")
+  background-image:url("OIP.jpeg")
 </style>
 #loading the saved model
 loaded_model=pickle.load(open("data1.sav",'rb'))
