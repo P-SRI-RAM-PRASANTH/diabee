@@ -11,7 +11,7 @@ import pickle
 import streamlit as st
 page_bg_image='''
 <style>
- *{
+ body{
   background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fvectors%2Fcancer-background%2F2&psig=AOvVaw3LZQuPFYvUkYukcrg4rw1O&ust=1686761625874000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLjmrO3awP8CFQAAAAAdAAAAABAE")
   background-size: cover;
   }
